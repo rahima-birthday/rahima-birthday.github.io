@@ -36,7 +36,8 @@
 
       function comingSoon() {
         // Set Launch Date
-        var hbd = moment.tz("2019-05-17 12:00", "America/New_York").format();
+        // var hbd = moment.tz("2019-05-17 12:00", "America/New_York").format();
+        var hbd = moment.tz("2019-05-17", "America/New_York").format();
         const launchDate = new Date(hbd).getTime();
 
         // Update every second
